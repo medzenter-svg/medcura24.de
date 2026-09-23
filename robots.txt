@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://medcura24.de/sitemap.xml
