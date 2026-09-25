@@ -1,63 +1,116 @@
 <!doctype html>
 <html lang="ru">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>MEDCURA24 — медицинский менеджмент в Мюнхене</title>
-<meta name="description" content="Персональная организация диагностики и лечения в Мюнхене: Check-up, второе мнение, клиники, специалисты, перевод и сопровождение.">
+<meta name="description" content="Персональная организация диагностики и лечения в Мюнхене: клиники, специалисты, Check-up, второе мнение, перевод и сопровождение.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="site-header">
-<a class="brand" href="#top"><span class="brand-mark">M</span><span><strong>MEDCURA24</strong><small>PRIVATE MEDICAL MANAGEMENT · MÜNCHEN</small></span></a>
-<nav><a href="#about">О нас</a><a href="#services">Услуги</a><a href="#directions">Направления</a><a href="#clinics">Клиники</a><a href="#contact">Контакты</a></nav>
-<a class="btn btn-gold header-btn" href="#contact">Связаться</a>
+  <a class="brand" href="#top" aria-label="MEDCURA24">
+    <svg class="brand-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M11 35C11 19 26 11 32 24C38 11 53 19 53 35C53 45 43 52 32 58C21 52 11 45 11 35Z"/><path d="M19 36C19 26 28 23 32 31C36 23 45 26 45 36C45 42 39 47 32 51C25 47 19 42 19 36Z"/></svg>
+    <span><strong>MEDCURA24</strong><small>PRIVATE MEDICAL MANAGEMENT · MÜNCHEN</small></span>
+  </a>
+  <nav>
+    <a href="#top">Главная</a><a href="#about">О нас</a><a href="#services">Услуги</a><a href="#clinics">Клиники</a><a href="#directions">Направления</a><a href="#contact">Контакты</a>
+  </nav>
+  <div class="header-actions"><a class="header-contact" href="#contact">Телефон / Messenger</a><a class="btn btn-gold" href="#contact">Связаться</a></div>
 </header>
+
 <main id="top">
-<section class="hero">
-<div class="hero-visual" aria-label="MEDCURA24">
-<div class="wall-logo"><span>M</span><b>MEDCURA24</b><small>PRIVATE MEDICAL MANAGEMENT</small></div>
-<div class="lights"><i></i><i></i><i></i></div><div class="desk"></div><div class="vase">✦</div><div class="chair c1"></div><div class="chair c2"></div>
-</div>
-<div class="hero-copy">
-<div class="eyebrow">МЮНХЕН · С 2002 ГОДА</div>
-<h1>Лечение в Мюнхене.<br><em>Всё организовано.</em></h1>
-<p class="lead">Индивидуально. Конфиденциально. На высоком уровне.</p>
-<p>MEDCURA24 — персональный медицинский менеджмент. Подбираем клинику и профильного специалиста, организуем консультации, диагностику, лечение, переводы и сопровождение.</p>
-<div class="actions"><a class="btn btn-gold" href="#contact">Обсудить случай</a><a class="btn btn-line" href="#start">Как начать</a></div>
-<div class="trust"><div><b>20+</b><span>лет опыта</span></div><div><b>1</b><span>координатор</span></div><div><b>RU</b><span>сопровождение</span></div></div>
-</div>
+<section class="hero-premium">
+  <div class="reception-visual" role="img" aria-label="Иллюстративный интерьер MEDCURA24">
+    <div class="ceiling"><i></i><i></i><i></i><i></i></div>
+    <div class="stone-panel"></div><div class="window-panel"></div>
+    <div class="wall-brand"><svg viewBox="0 0 64 64"><path d="M11 35C11 19 26 11 32 24C38 11 53 19 53 35C53 45 43 52 32 58C21 52 11 45 11 35Z"/></svg><b>MEDCURA24</b></div>
+    <div class="reception-desk"><span></span></div>
+    <div class="flowers"><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="lounge-chair left"></div><div class="lounge-chair right"></div>
+  </div>
+  <div class="hero-content">
+    <div class="eyebrow">ПЕРСОНАЛЬНЫЙ МЕДИЦИНСКИЙ МЕНЕДЖМЕНТ В МЮНХЕНЕ</div>
+    <h1>Лечение в Мюнхене.<br><span>Всё организовано.</span></h1>
+    <p class="hero-sub">Индивидуально. Конфиденциально. На высоком уровне.</p>
+    <div class="gold-rule"></div>
+    <p class="hero-text">Подбираем профильную клинику и специалиста, организуем консультации, диагностику, госпитализацию, операции, медицинский перевод и персональное сопровождение.</p>
+    <div class="hero-buttons"><a class="btn btn-gold" href="#contact">Обсудить случай</a><a class="btn btn-outline" href="#start">Как начать</a></div>
+    <div class="hero-benefits">
+      <div><span>01</span><b>Конфиденциально</b><small>Персональная работа с вашим запросом</small></div>
+      <div><span>02</span><b>Ведущие специалисты</b><small>Подбор по медицинской задаче</small></div>
+      <div><span>03</span><b>Один координатор</b><small>Организация всего маршрута</small></div>
+    </div>
+  </div>
 </section>
 
-<section class="section" id="start"><div class="section-title center"><div class="eyebrow">КАК НАЧАТЬ СОТРУДНИЧЕСТВО</div><h2>Пять понятных шагов</h2><p>Сначала свяжитесь с нами по телефону или через мессенджер. После согласования запроса и оплаты организационного сервиса персональный координатор приступает к работе.</p></div>
-<div class="steps">
-<article><span>01</span><h3>Свяжитесь с нами</h3><p>Телефон, WhatsApp, Telegram, imo или e-mail.</p></article>
-<article class="accent"><span>02</span><h3>Организационный сервис</h3><strong>300 €</strong><p>Обработка запроса начинается после оплаты.</p></article>
-<article><span>03</span><h3>Документы</h3><p>Выписки, эпикризы, анализы и результаты обследований.</p></article>
-<article><span>04</span><h3>Клиника и специалист</h3><p>Подбор и организация консультаций и обследований.</p></article>
-<article><span>05</span><h3>Координация</h3><p>Даты, лечение, сопровождение и дальнейшие шаги.</p></article>
-</div></section>
+<section class="section start-section" id="start">
+  <div class="section-heading centered"><div class="eyebrow">КАК НАЧАТЬ СОТРУДНИЧЕСТВО</div><h2>Пять понятных шагов</h2><p>Первый контакт — по телефону или через один из мессенджеров, представленных на странице.</p></div>
+  <div class="step-grid">
+    <article><span>01</span><h3>Свяжитесь с нами</h3><p>Телефон, WhatsApp, Telegram, imo или e-mail.</p></article>
+    <article class="price-card"><span>02</span><h3>Организационный сервис</h3><strong>300 €</strong><p>Обработка запроса начинается после оплаты сервиса.</p></article>
+    <article><span>03</span><h3>Передайте документы</h3><p>Выписки, эпикризы, анализы и результаты обследований.</p></article>
+    <article><span>04</span><h3>Подбор клиники и профессора</h3><p>Выбор профильного учреждения и подходящего специалиста.</p></article>
+    <article><span>05</span><h3>Назначение встреч</h3><p>Организация консультаций, обследований и дальнейшего маршрута.</p></article>
+  </div>
+</section>
 
-<section class="section soft"><div class="fee"><div><div class="eyebrow">ОРГАНИЗАЦИОННЫЙ СЕРВИС</div><h2>Что входит в 300 €</h2><p>После поступления оплаты персональный координатор начинает организационную работу по вашему обращению.</p></div><div class="fee-list">
-<p>Первичный анализ обращения</p><p>Изучение медицинской документации</p><p>Подбор подходящей клиники в Мюнхене</p><p>Подбор профессора или профильного специалиста</p><p>Организация консультаций</p><p>Запись на обследования</p><p>Координация встреч и медицинского маршрута</p><p>Персональный координатор на организационном этапе</p>
-</div><small>Медицинские услуги клиник, консультации врачей, обследования, лечение, переводы, проживание и транспорт оплачиваются отдельно. Дополнительные расходы согласовываются заранее.</small></div></section>
+<section class="section fee-section">
+  <div class="fee-shell">
+    <div class="fee-intro"><div class="eyebrow">ОРГАНИЗАЦИОННЫЙ СЕРВИС MEDCURA24</div><h2>Что входит в 300 €</h2><p>После поступления оплаты персональный координатор приступает к организационной работе по вашему обращению.</p></div>
+    <div class="fee-list">
+      <p>Первичный анализ обращения</p><p>Изучение медицинской документации</p><p>Подбор профильной клиники в Мюнхене</p><p>Подбор профессора или специалиста</p><p>Организация запланированных консультаций</p><p>Назначение встреч и обследований</p><p>Координация медицинского маршрута</p><p>Персональный координатор на организационном этапе</p>
+    </div>
+    <small>Услуги врачей и клиник, лечение, обследования, медицинский перевод, транспорт, проживание и другие дополнительные услуги оплачиваются отдельно и согласовываются заранее.</small>
+  </div>
+</section>
 
-<section class="section" id="directions"><div class="section-title split"><div><div class="eyebrow">МЕДИЦИНСКИЕ НАПРАВЛЕНИЯ</div><h2>Подбор маршрута по конкретной медицинской задаче</h2></div><a href="napravleniya.html">Все направления →</a></div>
-<div class="directions"><a>Онкология</a><a>Кардиология</a><a>Неврология</a><a>Ортопедия</a><a>Офтальмология</a><a>Пластическая хирургия</a><a>Гастроэнтерология</a><a>Пульмонология</a><a>Урология</a><a>Гинекология</a><a>Дерматология</a><a>Эндокринология</a></div></section>
+<section class="section" id="directions">
+  <div class="section-heading split"><div><div class="eyebrow">НАШИ МЕДИЦИНСКИЕ НАПРАВЛЕНИЯ</div><h2>Подбор маршрута по конкретной задаче</h2></div><a href="napravleniya.html">Все направления →</a></div>
+  <div class="direction-grid">
+    <a>Онкология</a><a>Кардиология</a><a>Неврология</a><a>Ортопедия</a><a>Офтальмология</a><a>Пластическая хирургия</a><a>Гастроэнтерология</a><a>Пульмонология</a><a>Урология</a><a>Гинекология</a><a>Дерматология</a><a>Эндокринология</a>
+  </div>
+</section>
 
-<section class="section soft" id="services"><div class="section-title center"><div class="eyebrow">ОСНОВНЫЕ УСЛУГИ</div><h2>Организация медицинского маршрута</h2></div>
-<div class="services">
-<article class="featured"><small>CHECK-UP</small><h3>Комплексный Check-up</h3><p>Индивидуальная программа профилактического обследования: лабораторная диагностика, кардиология, МРТ и другие методы визуализации, эндоскопические исследования и консультации — в зависимости от возраста, анамнеза и медицинских показаний.</p><a href="#contact">Организовать Check-up →</a></article>
-<article><small>EXECUTIVE</small><h3>Executive Check-up</h3><p>Компактная программа для людей с ограниченным временем: персональное расписание и координация обследований.</p><a href="#contact">Обсудить программу →</a></article>
-<article><small>SECOND OPINION</small><h3>Второе медицинское мнение</h3><p>Организация рассмотрения документов профильным специалистом в Мюнхене. Организация запроса — от 500 €.</p><a href="vtoroe-mnenie.html">Подробнее →</a></article>
-<article><small>TELEMEDICINE</small><h3>Телемедицина</h3><p>Помогаем организовать дистанционную консультацию и подготовить документы до приезда в Мюнхен.</p><a href="#contact">Запросить консультацию →</a></article>
-</div></section>
+<section class="section service-showcase" id="services">
+  <div class="section-heading centered"><div class="eyebrow">ОСНОВНЫЕ УСЛУГИ</div><h2>От профилактики до лечения</h2></div>
+  <div class="service-grid">
+    <article class="service-large"><small>CHECK-UP</small><h3>Комплексный Check-up в Мюнхене</h3><p>Индивидуальная программа профилактического обследования. В зависимости от возраста, анамнеза и медицинских показаний программа может включать расширенные анализы крови, кардиологическую диагностику, УЗИ, МРТ, эндоскопические исследования, колоноскопию, гастроскопию и консультации профильных специалистов.</p><a href="#contact">Организовать Check-up →</a></article>
+    <article><small>EXECUTIVE CHECK-UP</small><h3>Executive Check-up</h3><p>Компактное персональное расписание обследований для людей с ограниченным временем.</p><a href="#contact">Обсудить программу →</a></article>
+    <article><small>SECOND OPINION</small><h3>Второе медицинское мнение</h3><p>Организация экспертного рассмотрения документов профильным специалистом в Мюнхене.</p><a href="vtoroe-mnenie.html">Подробнее →</a></article>
+    <article><small>TELEMEDICINE</small><h3>Телемедицина</h3><p>Организация дистанционной консультации и подготовка документов до поездки.</p><a href="#contact">Запросить консультацию →</a></article>
+    <article><small>FULL SERVICE</small><h3>Сопровождение в Мюнхене</h3><p>Переводчик, трансфер, гостиница, водитель и организационная поддержка сопровождающих.</p><a href="#contact">Подробнее →</a></article>
+  </div>
+</section>
 
-<section class="section about" id="about"><div><div class="eyebrow">О MEDCURA24</div><h2>Ваш персональный координатор в медицинской системе Мюнхена</h2><p>С 2002 года мы занимаемся организацией медицинского сопровождения в Мюнхене. MEDCURA24 не является клиникой и не принимает медицинских решений: диагностику и лечение определяют врачи и медицинские учреждения.</p></div><div class="about-list"><p><b>Подбор клиники и специалиста</b><span>По диагнозу и медицинской задаче.</span></p><p><b>Русскоязычное сопровождение</b><span>Медицинский перевод и организационная поддержка.</span></p><p><b>Прозрачная координация</b><span>Дополнительные расходы согласовываются заранее.</span></p><p><b>Один контакт</b><span>Персональный координатор на организационном этапе.</span></p></div></section>
+<section class="section about-premium" id="about">
+  <div class="about-copy"><div class="eyebrow">О НАС</div><h2>Ваш надёжный партнёр в организации лечения</h2><p>С 2002 года мы занимаемся организацией медицинского сопровождения в Мюнхене. MEDCURA24 координирует медицинский маршрут пациента и помогает организовать взаимодействие с клиниками и специалистами.</p><a class="text-link" href="#contact">Связаться с координатором →</a></div>
+  <div class="consultation-visual"><div class="person one"></div><div class="person two"></div><div class="table"></div><div class="document"></div></div>
+  <div class="benefit-list">
+    <div><span>01</span><p><b>Доступ к клиникам Мюнхена</b><small>Подбор учреждения под конкретную медицинскую задачу.</small></p></div>
+    <div><span>02</span><p><b>Персональный координатор</b><small>Один контакт на организационном этапе.</small></p></div>
+    <div><span>03</span><p><b>Прозрачные условия</b><small>Дополнительные расходы согласовываются заранее.</small></p></div>
+    <div><span>04</span><p><b>Экономия времени</b><small>Организация встреч, обследований и логистики.</small></p></div>
+  </div>
+</section>
 
-<section class="section soft" id="clinics"><div class="section-title split"><div><div class="eyebrow">КЛИНИКИ МЮНХЕНА</div><h2>Клиники, с которыми мы организуем работу по медицинским запросам</h2></div><a href="kliniki-myunhena.html">Каталог клиник →</a></div><div class="clinic-preview"><article><span>01</span><h3>Университетские клиники</h3><p>Сложные случаи, специализированные центры и междисциплинарная медицина.</p></article><article><span>02</span><h3>Частные клиники</h3><p>Индивидуальная организация диагностики и лечения.</p></article><article><span>03</span><h3>Специализированные центры</h3><p>Профильная диагностика и лечение по конкретным направлениям.</p></article></div></section>
+<section class="section clinics-section" id="clinics">
+  <div class="section-heading split"><div><div class="eyebrow">КЛИНИКИ МЮНХЕНА</div><h2>Клиники, с которыми мы организуем работу</h2><p>Университетские, муниципальные, частные и специализированные учреждения — выбор зависит от диагноза, задачи и доступности специалистов.</p></div><a href="kliniki-myunhena.html">Каталог клиник →</a></div>
+  <div class="clinic-grid"><article><span>01</span><h3>Университетские клиники</h3><p>Сложные случаи, междисциплинарные центры и высокоспециализированная медицина.</p></article><article><span>02</span><h3>Частные клиники</h3><p>Индивидуальная организация консультаций, диагностики и лечения.</p></article><article><span>03</span><h3>Специализированные центры</h3><p>Профильная помощь по конкретным медицинским направлениям.</p></article></div>
+</section>
 
-<section class="cta" id="contact"><div><div class="eyebrow">ПЕРВЫЙ ШАГ</div><h2>Свяжитесь с нами</h2><p>Расскажите о вашей ситуации. Мы объясним порядок работы и какие документы понадобятся после оплаты организационного сервиса.</p></div><a class="btn btn-gold" href="mailto:medzenter@icloud.com">Написать MEDCURA24</a></section>
+<section class="final-cta" id="contact">
+  <div><div class="eyebrow">СДЕЛАЙТЕ ПЕРВЫЙ ШАГ</div><h2>Сосредоточьтесь на здоровье.<br>Организацию берём на себя.</h2><p>Свяжитесь с MEDCURA24 по телефону или через удобный мессенджер. После согласования запроса и оплаты организационного сервиса мы приступим к работе.</p><a class="btn btn-gold" href="mailto:medzenter@icloud.com">Написать MEDCURA24</a></div>
+  <blockquote>«Здоровье — самое ценное богатство.»<small>Живите полной жизнью вместе с MEDCURA24</small></blockquote>
+</section>
 </main>
-<div class="social"><a class="wa" href="#contact" aria-label="WhatsApp">W</a><a class="imo" href="#contact" aria-label="imo">imo</a><a class="tg" href="#contact" aria-label="Telegram">↗</a></div>
-<footer><div class="brand"><span class="brand-mark">M</span><span><strong>MEDCURA24</strong><small>PRIVATE MEDICAL MANAGEMENT · MÜNCHEN</small></span></div><p>Персональный медицинский менеджмент в Мюнхене.</p><small>Информация на сайте не заменяет медицинскую консультацию. Медицинские решения принимаются лечащими врачами и клиниками.</small></footer>
-</body></html>
+
+<div class="social-float"><a class="wa" href="#contact" aria-label="WhatsApp">W</a><a class="imo" href="#contact" aria-label="imo">imo</a><a class="tg" href="#contact" aria-label="Telegram">↗</a><a class="top" href="#top" aria-label="Наверх">↑</a></div>
+
+<footer>
+  <div class="footer-brand"><a class="brand" href="#top"><svg class="brand-icon" viewBox="0 0 64 64"><path d="M11 35C11 19 26 11 32 24C38 11 53 19 53 35C53 45 43 52 32 58C21 52 11 45 11 35Z"/></svg><span><strong>MEDCURA24</strong><small>PRIVATE MEDICAL MANAGEMENT · MÜNCHEN</small></span></a><p>Персональный медицинский менеджмент в Мюнхене.</p></div>
+  <div class="footer-links"><a href="#about">О нас</a><a href="#services">Услуги</a><a href="#clinics">Клиники</a><a href="#directions">Направления</a></div>
+  <div class="footer-note"><p>MEDCURA24 занимается организацией и координацией медицинского сопровождения. Диагностику, лечение и медицинские решения определяют врачи и медицинские учреждения.</p></div>
+</footer>
+</body>
+</html>
