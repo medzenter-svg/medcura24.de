@@ -26,3 +26,14 @@ html,body{max-width:100%;overflow-x:hidden}.premium-top{box-sizing:border-box;wi
 @media(min-width:1001px){.luximage{display:block!important;min-height:610px!important;height:610px!important;background:#e7e3db}.luximage img{display:block!important;width:100%!important;height:610px!important;min-height:610px!important;object-fit:cover!important;object-position:center!important;opacity:1!important;visibility:visible!important}}
 @media(max-width:1000px){.luximage img{display:block!important;width:100%!important;height:420px!important;object-fit:cover!important;opacity:1!important;visibility:visible!important}}
 @media(max-width:600px){.luximage img{height:300px!important}}
+
+/* Homepage hero: show the complete supplied office composition without cropping */
+@media(min-width:1001px){
+  .luxhero{grid-template-columns:52% 48%;align-items:stretch}
+  .luximage{height:auto!important;min-height:0!important;background:#eee9df;display:flex!important;align-items:center;justify-content:center;padding:0!important}
+  .luximage img{width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;object-fit:contain!important;object-position:center center!important;display:block!important;transform:none!important}
+}
+@media(max-width:1000px){
+  .luximage{height:auto!important;min-height:0!important;background:#eee9df}
+  .luximage img{width:100%!important;height:auto!important;min-height:0!important;object-fit:contain!important;object-position:center!important;display:block!important}
+}
