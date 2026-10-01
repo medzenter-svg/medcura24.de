@@ -99,3 +99,19 @@ html,body{max-width:100%;overflow-x:hidden}.premium-top{box-sizing:border-box;wi
     padding:0 !important;
   }
 }
+
+/* Hero uses background image to eliminate intrinsic aspect-ratio constraints */
+@media(min-width:1001px){
+ .luxhero{grid-template-columns:58% 42%!important;min-height:780px!important}
+ .luximage{
+   display:block!important;
+   position:relative!important;
+   height:auto!important;
+   min-height:780px!important;
+   background-image:url("assets/medcura24-office-hero.webp")!important;
+   background-size:cover!important;
+   background-position:center center!important;
+   background-repeat:no-repeat!important;
+ }
+ .luximage img{display:none!important}
+}
