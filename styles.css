@@ -115,3 +115,10 @@ html,body{max-width:100%;overflow-x:hidden}.premium-top{box-sizing:border-box;wi
  }
  .luximage img{display:none!important}
 }
+
+/* Restore hero image and fill the complete right panel */
+@media(min-width:1001px){
+ .luxhero{display:grid!important;grid-template-columns:58% 42%!important;min-height:780px!important;align-items:stretch!important}
+ .luximage{display:block!important;position:relative!important;min-height:780px!important;height:100%!important;overflow:hidden!important;background:#e9e4da!important;background-image:none!important}
+ .luximage>img{display:block!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;min-width:100%!important;min-height:100%!important;max-width:none!important;max-height:none!important;object-fit:cover!important;object-position:center!important}
+}
