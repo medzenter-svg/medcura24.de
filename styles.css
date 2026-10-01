@@ -72,3 +72,30 @@ html,body{max-width:100%;overflow-x:hidden}.premium-top{box-sizing:border-box;wi
     object-position:center center !important;
   }
 }
+
+/* Definitive hero image fill */
+@media(min-width:1001px){
+  .luxhero{grid-template-columns:62% 38% !important;min-height:760px !important}
+  .luximage{
+    position:relative !important;
+    min-height:760px !important;
+    height:auto !important;
+    overflow:hidden !important;
+    padding:0 !important;
+    margin:0 !important;
+  }
+  .luximage img{
+    position:absolute !important;
+    inset:0 !important;
+    width:100% !important;
+    height:100% !important;
+    min-width:100% !important;
+    min-height:100% !important;
+    max-width:none !important;
+    max-height:none !important;
+    object-fit:cover !important;
+    object-position:center !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+}
