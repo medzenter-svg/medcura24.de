@@ -47,3 +47,28 @@ html,body{max-width:100%;overflow-x:hidden}.premium-top{box-sizing:border-box;wi
   .luximage{min-height:760px;height:auto;align-self:stretch}
   .luximage img{display:block;width:100%;height:100%;min-height:760px;object-fit:cover;object-position:center center}
 }
+
+/* Full-height desktop hero photo fix */
+@media(min-width:1001px){
+  .luxhero{
+    min-height:calc(100vh - 72px) !important;
+    grid-template-columns:50% 50% !important;
+    align-items:stretch !important;
+  }
+  .luximage{
+    min-height:calc(100vh - 72px) !important;
+    height:calc(100vh - 72px) !important;
+    align-self:stretch !important;
+    overflow:hidden !important;
+    background:transparent !important;
+  }
+  .luximage img{
+    display:block !important;
+    width:100% !important;
+    height:100% !important;
+    min-height:100% !important;
+    max-height:none !important;
+    object-fit:cover !important;
+    object-position:center center !important;
+  }
+}
