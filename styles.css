@@ -213,3 +213,9 @@ footer{background:#414c55!important}
 .logo small{
   color:#25384d!important;
 }
+
+/* Professors section heading */
+.professors-home h2,
+.professors-home .sectionhead h2{
+  color:#ffffff!important;
+}
