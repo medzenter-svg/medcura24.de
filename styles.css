@@ -207,3 +207,9 @@ footer{background:#414c55!important}
   color:#324b66!important;
   border-color:#8e979f!important;
 }
+
+/* Logo subtitle dark blue */
+.premium-top .logo small,
+.logo small{
+  color:#25384d!important;
+}
