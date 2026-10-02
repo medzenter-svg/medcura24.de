@@ -661,3 +661,45 @@ footer{
     font-size:12px!important;
   }
 }
+
+/* Global floating HOME button on every subpage.
+   It uses the existing logo link to index.html, so no per-page HTML edits are needed. */
+body:not(#home) .premium-top .logo::after,
+body:not(#home) .top .logo::after{
+  content:"← На главную";
+  position:fixed;
+  right:22px;
+  bottom:22px;
+  z-index:99999;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:44px;
+  padding:0 18px;
+  border-radius:999px;
+  background:#324b66;
+  color:#fff;
+  font-size:13px;
+  font-weight:600;
+  letter-spacing:.02em;
+  line-height:1;
+  box-shadow:0 8px 24px rgba(37,56,77,.22);
+  border:1px solid #324b66;
+  pointer-events:auto;
+  white-space:nowrap;
+}
+body:not(#home) .premium-top .logo:hover::after,
+body:not(#home) .top .logo:hover::after{
+  background:#25384d;
+  border-color:#25384d;
+}
+@media(max-width:700px){
+  body:not(#home) .premium-top .logo::after,
+  body:not(#home) .top .logo::after{
+    right:14px;
+    bottom:14px;
+    min-height:42px;
+    padding:0 15px;
+    font-size:12px;
+  }
+}
