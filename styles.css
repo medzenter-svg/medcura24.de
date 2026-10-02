@@ -258,3 +258,13 @@ h1,h2,h3,h4{color:#25384d!important}
   color:#324b66!important;
   border-color:#8e979f!important;
 }
+
+/* Professors cards: remove remaining warm/gold labels */
+.prof-list span,
+.prof-list a span,
+.professors-home .prof-list span{
+  color:#c7d1da!important;
+}
+.prof-list a{
+  border-color:#66717a!important;
+}
