@@ -13,3 +13,33 @@
 .hero-photo img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;display:block!important;object-fit:cover!important;object-position:center center!important;max-width:none!important;max-height:none!important}
 @media(max-width:1000px){.premium-top{height:auto!important;min-height:72px!important;padding:14px 20px!important}.premium-top nav{display:none!important}.hero-main{grid-template-columns:1fr!important;min-height:0!important}.hero-photo{order:-1!important;min-height:56vw!important;max-height:560px!important}.hero-copy{padding:52px 7vw!important}.hero-copy h1{font-size:clamp(48px,9vw,72px)!important}}
 @media(max-width:600px){.hero-photo{min-height:82vw!important}.hero-copy{padding:42px 20px!important}.hero-copy h1{font-size:46px!important}.hero-actions{align-items:flex-start!important;flex-direction:column!important}}
+/* Final exact crop: show only the approved clinic photo from the uploaded composite */
+@media(min-width:1001px){
+  .hero-main{
+    grid-template-columns:50% 50%!important;
+    min-height:0!important;
+    align-items:stretch!important;
+  }
+  .hero-photo{
+    position:relative!important;
+    width:100%!important;
+    aspect-ratio:920/855!important;
+    min-height:0!important;
+    height:auto!important;
+    overflow:hidden!important;
+    padding:0!important;
+    background:#e8e3da!important;
+  }
+  .hero-photo img{
+    position:absolute!important;
+    width:181.739%!important;
+    height:110.058%!important;
+    left:-81.739%!important;
+    top:-10.058%!important;
+    max-width:none!important;
+    max-height:none!important;
+    object-fit:fill!important;
+    object-position:initial!important;
+    display:block!important;
+  }
+}
