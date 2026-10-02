@@ -268,3 +268,137 @@ h1,h2,h3,h4{color:#25384d!important}
 .prof-list a{
   border-color:#66717a!important;
 }
+
+/* FINAL LIGHT THEME: white + gray + dark blue only */
+body,
+main,
+.content-page,
+.light-intro,
+.premium-directions,
+.premium-services,
+.clinic-showcase,
+.process,
+.experience,
+.premium-contact,
+.related,
+.network,
+.start,
+.contact-form-section,
+.page-hero{
+  background:#ffffff!important;
+}
+
+.service-feature,
+.service-feature.warm,
+.clinic-row a,
+.direction-grid a,
+.rel,
+.directory-card,
+.steps article,
+.process article,
+.page-grid,
+.page-grid article{
+  background:#ffffff!important;
+}
+
+.premium-top{
+  background:#ffffff!important;
+  border-bottom:1px solid #d9dde1!important;
+}
+
+.direction-grid{
+  background:#d9dde1!important;
+  border-color:#d9dde1!important;
+}
+
+.direction-grid a:hover,
+.rel:hover,
+.directory-card:hover{
+  background:#f6f8fa!important;
+}
+
+.page-hero{
+  background:#ffffff!important;
+  border-bottom:1px solid #d9dde1!important;
+}
+
+h1,h2,h3,h4,
+.page-hero h1,
+.sectionhead h2,
+.light-intro h2,
+.experience h2{
+  color:#25384d!important;
+}
+
+p,li,
+.direction-grid p,
+.page-lead,
+.light-intro p,
+.experience p{
+  color:#69757d!important;
+}
+
+.eyebrow,
+.sectionhead small,
+.light-intro small,
+.premium-services small,
+.clinic-showcase small,
+.process small,
+.experience small,
+.premium-contact small,
+.logo small,
+.premium-top .logo small{
+  color:#25384d!important;
+}
+
+.goldbtn,.btn,button,.form-submit,
+.premium-top>.goldbtn,
+.hero-actions .goldbtn{
+  background:#8e979f!important;
+  background-image:none!important;
+  border:1px solid #8e979f!important;
+  color:#fff!important;
+}
+
+.goldbtn:hover,.btn:hover,button:hover,.form-submit:hover{
+  background:#737d86!important;
+  border-color:#737d86!important;
+}
+
+a,
+.sectionhead>a,
+.service-feature a,
+.textlink,
+.hero-textlink,
+.directory-card span,
+.source a{
+  color:#324b66!important;
+}
+
+.direction-grid,
+.direction-grid a,
+.rel,
+.directory-card,
+.steps article,
+.process article,
+.clinic-row a,
+.page-grid aside{
+  border-color:#d9dde1!important;
+}
+
+.professors-home{
+  background:#414c55!important;
+}
+.professors-home h2{
+  color:#ffffff!important;
+}
+.prof-list a{
+  background:#4a555f!important;
+}
+.prof-list span{
+  color:#c7d1da!important;
+}
+
+footer{
+  background:#414c55!important;
+}
