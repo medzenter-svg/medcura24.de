@@ -169,3 +169,41 @@ footer{background:#414c55!important}
 .float a:nth-child(4){background:var(--mc-gray)!important}
 .page-hero{background:linear-gradient(120deg,#f3f4f5,#fff)!important;border-color:var(--mc-gray-light)!important}
 .related,.network,.clinics{background:#f3f4f5!important}
+
+/* Cool gray homepage backgrounds — no beige */
+.premium-top{
+  background:#eef1f4!important;
+  border-bottom:1px solid #d6dde4!important;
+}
+.premium-top .logo small,
+.logo small{
+  color:#607080!important;
+}
+.premium-directions{
+  background:#e9eef3!important;
+}
+.direction-grid{
+  background:#d5dde5!important;
+  border-color:#d5dde5!important;
+}
+.direction-grid a{
+  background:#f9fafb!important;
+}
+.direction-grid a:hover{
+  background:#eef3f7!important;
+}
+.light-intro{
+  background:#f7f9fb!important;
+  border-bottom-color:#d9e0e6!important;
+}
+.service-feature.warm{
+  background:#eef2f5!important;
+}
+.clinic-row a{
+  background:#f2f5f7!important;
+}
+.sectionhead>a,
+.service-feature a{
+  color:#324b66!important;
+  border-color:#8e979f!important;
+}
