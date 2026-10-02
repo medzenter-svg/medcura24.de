@@ -402,3 +402,144 @@ a,
 footer{
   background:#414c55!important;
 }
+
+/* GLOBAL SUBPAGES: white + gray + blue only */
+.content-page,
+.page-hero,
+.page-grid,
+.page-grid article,
+.related,
+.catalog,
+.directory-grid,
+.network,
+.deep-layout,
+.deep-layout article,
+.medical-note,
+.steps-compact div,
+.directory-card,
+.rel,
+.start,
+.twocol,
+.clinics,
+.contact,
+.premium-contact{
+  background:#ffffff!important;
+}
+
+.page-hero{
+  border-bottom:1px solid #d9dde1!important;
+}
+
+.directory-grid{
+  background:#f7f9fb!important;
+}
+
+.network,
+.related{
+  background:#ffffff!important;
+}
+
+.page-grid aside,
+.deep-layout aside{
+  background:#46515b!important;
+}
+
+.page-grid aside h3,
+.deep-layout aside h3{
+  color:#c7d1da!important;
+}
+
+.page-grid aside a,
+.deep-layout aside a{
+  color:#ffffff!important;
+  border-color:#66717a!important;
+}
+
+.page-grid aside a span,
+.deep-layout aside a span{
+  color:#c7d1da!important;
+}
+
+.directory-card,
+.rel,
+.steps-compact,
+.medical-note,
+.gold-list li,
+.network-links a{
+  border-color:#d9dde1!important;
+}
+
+.directory-card{
+  border-top:2px solid #8e979f!important;
+}
+
+.directory-card small,
+.related>small,
+.network>small,
+.eyebrow,
+.page-hero .eyebrow{
+  color:#25384d!important;
+}
+
+.directory-card h2,
+.related h2,
+.network h2,
+.page-grid h2,
+.deep-layout article h2,
+.page-hero h1{
+  color:#25384d!important;
+}
+
+.directory-card p,
+.page-grid article p,
+.page-grid li,
+.network p,
+.page-lead,
+.medical-note p,
+.gold-list li{
+  color:#69757d!important;
+}
+
+.directory-card span,
+.source a,
+.network-links a,
+.rel,
+.page-grid article a{
+  color:#324b66!important;
+}
+
+.rel:hover,
+.directory-card:hover,
+.network-links a:hover{
+  color:#25384d!important;
+  border-color:#324b66!important;
+  background:#f6f8fa!important;
+}
+
+.medical-note{
+  border-left:3px solid #8e979f!important;
+}
+
+.medical-note b,
+.steps-compact b,
+.gold-list li:before{
+  color:#324b66!important;
+}
+
+.steps-compact{
+  background:#d9dde1!important;
+}
+
+.steps-compact div{
+  background:#ffffff!important;
+}
+
+/* Neutralize remaining warm backgrounds */
+[style*="#f4f1eb"],
+[style*="#f5f1e9"],
+[style*="#f6f3ed"],
+[style*="#f7f5f0"],
+[style*="#f8f6f1"],
+[style*="#f3f0e9"]{
+  background:#ffffff!important;
+}
